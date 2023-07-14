@@ -1625,10 +1625,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Conveyor
       objectReference: {fileID: 0}
-    - target: {fileID: 6075739726789261215, guid: 030191c2791c9d84897f6705be461bd0, type: 3}
-      propertyPath: conveyotSpeedRange.y
-      value: 0.8
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 030191c2791c9d84897f6705be461bd0, type: 3}
