@@ -500,12 +500,12 @@ Light:
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
-    m_Resolution: 0
+    m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 0.658
+    m_Strength: 0.717
     m_Bias: 0
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
+    m_NormalBias: 0
+    m_NearPlane: 3.53
     m_CullingMatrixOverride:
       e00: 1
       e01: 0
@@ -1455,6 +1455,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Character
       objectReference: {fileID: 0}
+    - target: {fileID: 579437678266400528, guid: 6250e73e4f787864581221bdf1009aa5, type: 3}
+      propertyPath: armIKSpeed
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1116938899349124195, guid: 6250e73e4f787864581221bdf1009aa5, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1620,6 +1624,10 @@ PrefabInstance:
     - target: {fileID: 6075739726789261211, guid: 030191c2791c9d84897f6705be461bd0, type: 3}
       propertyPath: m_Name
       value: Conveyor
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075739726789261215, guid: 030191c2791c9d84897f6705be461bd0, type: 3}
+      propertyPath: conveyotSpeedRange.y
+      value: 0.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []

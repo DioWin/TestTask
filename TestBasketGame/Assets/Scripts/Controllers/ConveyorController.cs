@@ -2,10 +2,10 @@ using System;
 using System.Collections;
 using UnityEngine;
 
-[RequireComponent(typeof(ConveyorMovmentController), typeof(FruitSpawnerController))]
+[RequireComponent(typeof(ConveyorMovementController), typeof(FruitSpawnerController))]
 public class ConveyorController : MonoBehaviour
 {
-    private ConveyorMovmentController movmentController;
+    private ConveyorMovementController movmentController;
     private FruitSpawnerController fruitSpawnerController;
 
     [SerializeField] Vector2 conveyotSpeedRange;
@@ -16,7 +16,7 @@ public class ConveyorController : MonoBehaviour
 
     private void Awake()
     {
-        movmentController = GetComponent<ConveyorMovmentController>();
+        movmentController = GetComponent<ConveyorMovementController>();
         fruitSpawnerController = GetComponent<FruitSpawnerController>();
 
         float randomSpeed = UnityEngine.Random.Range(conveyotSpeedRange.x, conveyotSpeedRange.y);
@@ -24,7 +24,7 @@ public class ConveyorController : MonoBehaviour
         SetSpeed(randomSpeed);
     }
 
-    public void Activete()
+    public void Activate()
     {
         fruitSpawnerController.ChangeSpawnerStatus(true);
     }

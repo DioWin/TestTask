@@ -398,8 +398,6 @@
 "Assets/Scripts/Configs/TaskConfig.cs"
 "Assets/Scripts/Controllers/BasketConteller.cs"
 "Assets/Scripts/Controllers/CharacterController.cs"
-"Assets/Scripts/Controllers/ConveyorController.cs"
-"Assets/Scripts/Controllers/ConveyorMovmentController.cs"
 "Assets/Scripts/Controllers/DollyCartController.cs"
 "Assets/Scripts/Controllers/FruitController.cs"
 "Assets/Scripts/Controllers/FruitSpawnerController.cs"
@@ -411,7 +409,6 @@
 "Assets/Scripts/Enums/CharacterState.cs"
 "Assets/Scripts/Enums/FruitType.cs"
 "Assets/Scripts/Enums/GameplayState.cs"
-"Assets/Scripts/GameManager.cs"
 "Assets/Scripts/InGameUIController.cs"
 "Assets/Scripts/Singelton.cs"
 -langversion:9.0

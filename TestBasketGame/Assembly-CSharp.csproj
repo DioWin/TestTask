@@ -80,7 +80,6 @@
     <Compile Include="Assets\Content\Packages\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\Content\Packages\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\Content\Packages\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Content\Packages\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\Content\Packages\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\Scripts\Controllers\BasketConteller.cs" />
@@ -95,7 +94,6 @@
     <Compile Include="Assets\Scripts\Singelton.cs" />
     <Compile Include="Assets\Scripts\Controllers\InteractionController.cs" />
     <Compile Include="Assets\Content\Packages\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
-    <Compile Include="Assets\Scripts\Controllers\ConveyorMovmentController.cs" />
     <Compile Include="Assets\Content\Packages\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\Content\Packages\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\Content\Packages\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
@@ -107,7 +105,6 @@
     <Compile Include="Assets\Content\Packages\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\Content\Packages\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\Content\Packages\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
-    <Compile Include="Assets\Scripts\Controllers\ConveyorController.cs" />
     <Compile Include="Assets\Content\Packages\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
   </ItemGroup>
   <ItemGroup>

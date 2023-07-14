@@ -54,7 +54,7 @@ public class GameManager : Singleton<GameManager>
                 {
                     GenerateTasks();
 
-                    conveyorController.Activete();
+                    conveyorController.Activate();
 
                     gameplayState = GameplayState.Gameplay;
                 }
