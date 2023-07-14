@@ -102,7 +102,7 @@ MonoBehaviour:
   - {fileID: 3033202740833551039, guid: ade48c636eaa1264b87bb717dd034ac2, type: 3}
   spawmHolder: {fileID: 6075739726914034009}
   endCorner: {fileID: 6075739727453730641}
-  spawnRateRage: {x: 0.5, y: 2}
+  spawnRateRage: {x: 0.8, y: 2}
 --- !u!114 &8571905851037790760
 MonoBehaviour:
   m_ObjectHideFlags: 0

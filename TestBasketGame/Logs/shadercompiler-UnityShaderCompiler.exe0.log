@@ -1,3 +1,4 @@
 Base path: 'U:/Programs/2022.1.5f1/Editor/Data', plugins path 'U:/Programs/2022.1.5f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
 
+Cmd: shutdown

@@ -18,12 +18,6 @@ public class FruitSpawnerController : MonoBehaviour
 
     private bool isEnable;
 
-    private void Awake()
-    {
-        currentTime = Time.time;
-        currentSpawnRate = Random.Range(spawnRateRage.x, spawnRateRage.y);
-    }
-
     private void Update()
     {
         if (!isEnable)
@@ -34,6 +28,9 @@ public class FruitSpawnerController : MonoBehaviour
         if (currentTime >= lastSpawnTime + currentSpawnRate)
         {
             lastSpawnTime = currentTime;
+
+            currentSpawnRate = Random.Range(spawnRateRage.x, spawnRateRage.y);
+
             SpawnFruit();
         }
     }
